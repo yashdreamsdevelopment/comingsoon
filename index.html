@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="root.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <header>
+      <div id="logo">
+        <img src="./images/logo.svg" alt="">
+      </div>
+    </header>
+
+    <section id="hero" class="container">
+      <div class="hero__content">
+        <h1 class="hero-title">
+          we're <br> <span>coming</span> <br> <span>soon</span>
+        </h1>
+
+        <p class="hero-body">
+          Hello fellow shoppers! We're currently building our new
+          fashion store. Add your email below to stay up-to-date with
+          announcements and our launch deals,
+        </p>
+
+        <!-- add error class to form to show errors -->
+        <form action="#" class="">
+          <input type="email" name="email" id="email-input" placeholder="Email Address">
+          <div class="form-error">
+            <img src="/images/icon-error.svg" alt="">
+          </div>
+          <button type="submit"></button>
+          <div class="input-error">
+            <p>Please provide a valid email</p>
+          </div>
+        </form>
+      </div>
+      <div class="hero__img-container">
+        <picture>
+
+          <source srcset="images/hero-mobile.jpg" media="(max-width: 425px)" />
+          <img src="images/hero-desktop.jpg" alt="" />
+        </picture>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
