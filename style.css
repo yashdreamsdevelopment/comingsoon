@@ -11,7 +11,7 @@ html {
   font-size: 62.5%; /* 1rem = 10px */
 }
 body {
-  background: url("/images/bg-pattern-desktop.svg") no-repeat;
+  background: url("./images/bg-pattern-desktop.svg") no-repeat;
 }
 
 /* utility */
@@ -135,7 +135,7 @@ header #logo {
 
 .hero__content form button[type="submit"]::before {
   content: "";
-  background: url("/images/icon-arrow.svg");
+  background: url("./images/icon-arrow.svg");
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
